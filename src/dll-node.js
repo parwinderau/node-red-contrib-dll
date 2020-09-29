@@ -5,7 +5,7 @@ module.exports = function(RED) {
 		node.on('input', function(msg) {
 
 			//*************************************DLL STARTS*********************************************///
-			var callDLL = require('./dlloader')   
+			var callDLL = require('./dlloader.js')   
 			var payload= msg.payload;
 			console.log("Payload received--->"+JSON.stringify(payload));
 			payload.method.forEach(function(method) { 

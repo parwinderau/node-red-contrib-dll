@@ -1,4 +1,4 @@
-var callDLL = require('./dlloader.js')
+var callDLL = require('../src/dlloader.js')
 
 var methodParams ='2,5';
 var methodToInvoke = 'add';

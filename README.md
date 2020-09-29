@@ -6,9 +6,9 @@ Following steps you need to follow to install this module in your node-red.
 git clone 
 
 This node provides expect an input in the following json payload and also provides an output in the same json payload but with the "result" field contaning an output of your function call.
-
+```
 {
-	"lib": "\"C:/Path/To/Your/Yourlib.dll\"", \n
+	"lib": "\"C:/Path/To/Your/Yourlib.dll\"", 
 	"method": [{
 		"name": "add",
 		"paramValues": "2,3",
@@ -25,4 +25,4 @@ This node provides expect an input in the following json payload and also provid
 		"oiParamType": "[int, [int, int]]",
 		"result": 6
 	}]
-}
+}```

@@ -28,5 +28,25 @@ This node provides expect an input in the following json payload and also provid
 	}]
 }
 ```
-#Note: 
+# Note: 
 This library expects npm and node js environment already installed.
+# Installation 
+```
+cd path/to/node_modules
+git clone https://github.com/parwinderau/node-red-contrib-dll.git 
+cd node-red-contrib-dll
+npm install .
+    ```
+
+Step 2: ``` npm install -g ```
+
+
+# Uninstallation
+```
+npm uninstall  node-red-contrib-example-dll-node
+```
+# Error
+If you encounter below error in your output please check the path of DLL carefully in your injecting payload;
+```
+Error: Dynamic Linking Error: Win32 error 126 
+```

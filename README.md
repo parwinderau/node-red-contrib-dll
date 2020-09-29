@@ -26,5 +26,5 @@ This node provides expect an input in the following json payload and also provid
 		"result": 6
 	}]
 }
-
+```
 To install

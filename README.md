@@ -28,5 +28,13 @@ This node provides expect an input in the following json payload and also provid
 	}]
 }
 ```
-#Note: 
+# Note: 
 This library expects npm and node js environment already installed.
+# Installation 
+
+Step1: ``` git clone https://github.com/parwinderau/node-red-contrib-dll.git    ```
+
+# Uninstallation
+```
+npm uninstall  node-red-contrib-example-dll-node
+```

@@ -9,7 +9,7 @@ git clone
 This node provides expect an input in the following json payload and also provides an output in the same json payload but with the "result" field contaning an output of your function call.
 ```
 {
-	"lib": "\"C:/Path/To/Your/Yourlib.dll\"", 
+	"lib": "\"./sample-dll-flow/math.dll\"", 
 	"method": [{
 		"name": "add",
 		"paramValues": "2,3",
@@ -41,7 +41,8 @@ This library expects npm and node js environment already installed.
 7) Now restart your node-red service.
 8) your service will be available online. Open your browser at http://127.0.0.1:1880/
 9) Import the sample flow "node-red-dll-flow.json" available under "sample-dll-flow" folder.
-10) Now use the above JSON payload in the inject node and do adjust the parameters according to your environment. Alternatively you can use the sample DLL and related path.
+10) Now use the above JSON payload in the inject node as an input to the DLL node and do adjust the parameters according to your environment.
+    Alternatively for testing you can use the sample payload, DLL and flow as it is to see how it works.
 ```
 
 # Uninstallation

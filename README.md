@@ -8,7 +8,7 @@ git clone
 This node provides expect an input in the following json payload and also provides an output in the same json payload but with the "result" field contaning an output of your function call.
 
 {
-	"lib": "\"C:/Path/To/Your/Yourlib.dll\"",
+	"lib": "\"C:/Path/To/Your/Yourlib.dll\"", \n
 	"method": [{
 		"name": "add",
 		"paramValues": "2,3",

@@ -32,18 +32,21 @@ This node provides expect an input in the following json payload and also provid
 This library expects npm and node js environment already installed.
 # Installation 
 ```
-cd path/to/node_modules
-git clone https://github.com/parwinderau/node-red-contrib-dll.git 
-cd node-red-contrib-dll
-npm install .
-    ```
-
-Step 2: ``` npm install -g ```
-
+1) cd path/to/.node-red/
+2) npm install
+3) cd ../
+4) git clone https://github.com/parwinderau/node-red-contrib-dll.git 
+5) cd .node-red/
+6) npm install ../node-red-contrib-dll/
+7) Now restart your node-red service.
+8) your service will be available online. Open your browser at http://127.0.0.1:1880/
+9) Import the sample flow "node-red-dll-flow.json" available under "sample-dll-flow" folder.
+10) Now use the above JSON payload in the inject node and do adjust the parameters according to your environment. Alternatively you can use the sample DLL and related path.
+```
 
 # Uninstallation
 ```
-npm uninstall  node-red-contrib-example-dll-node
+npm uninstall node-red-contrib-example-dll-node
 ```
 # Error
 If you encounter below error in your output please check the path of DLL carefully in your injecting payload;

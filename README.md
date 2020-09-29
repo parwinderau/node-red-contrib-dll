@@ -25,4 +25,6 @@ This node provides expect an input in the following json payload and also provid
 		"oiParamType": "[int, [int, int]]",
 		"result": 6
 	}]
-}```
+}
+
+To install

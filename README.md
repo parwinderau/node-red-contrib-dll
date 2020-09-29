@@ -38,3 +38,8 @@ Step1: ``` git clone https://github.com/parwinderau/node-red-contrib-dll.git    
 ```
 npm uninstall  node-red-contrib-example-dll-node
 ```
+# Error
+If you encounter below error in your output please check the path of DLL carefully in your injecting payload;
+```
+Error: Dynamic Linking Error: Win32 error 126 
+```
